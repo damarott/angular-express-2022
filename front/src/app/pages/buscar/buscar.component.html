@@ -1,0 +1,7 @@
+
+<form class="busqueda" [formGroup]="busquedaForm" (ngSubmit)="onSubmit()">
+    <label for="terminio">Terminio de busqueda</label>
+    <input type="search" id="termino" formControlName="termino" name="terminio">
+
+    <input type="submit" value="buscar">
+</form>
